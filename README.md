@@ -1,64 +1,69 @@
-# 🏠 House Price Prediction using Machine Learning
+# 🚀 Machine Learning Projects Portfolio
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
-![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red)
-![License](https://img.shields.io/badge/License-MIT-green)
+Welcome to my Machine Learning Projects portfolio.
 
----
-
-## 📌 Project Overview
-
-This project predicts house prices using Machine Learning.
-
-Users can enter house information through a Streamlit web application and receive an estimated house price instantly.
-
-This project demonstrates the complete Machine Learning workflow from data preprocessing to deployment.
+This repository contains end-to-end Machine Learning projects built using **Python**, **Scikit-Learn**, **Pandas**, **NumPy**, and **Streamlit**.
 
 ---
 
-## 🎯 Problem Statement
+# 👨‍💻 About Me
 
-The objective is to predict the selling price of a house using features such as:
+**Hafiz Ahmad Adil**
 
-- Area
-- Bedrooms
-- Bathrooms
-- Stories
-- Parking
-- Air Conditioning
-- Furnishing Status
+- 🎓 MS Computer Science
+- 🤖 Aspiring AI Engineer
+- 💻 Python & Machine Learning Enthusiast
 
 ---
 
-## 📊 Dataset
+# 📂 Projects
 
-Dataset Name:
+## 🏠 01. House Price Prediction
 
-Housing.csv
+### Description
 
-Target Variable:
+Predict house prices using Linear Regression.
 
-- Price
+### Technologies
 
-Features:
-
-- Area
-- Bedrooms
-- Bathrooms
-- Stories
-- Main Road
-- Guest Room
-- Basement
-- Hot Water Heating
-- Air Conditioning
-- Parking
-- Preferred Area
-- Furnishing Status
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- Streamlit
 
 ---
 
-## 🛠 Tech Stack
+## 🎓 02. Student Performance Prediction
+
+### Description
+
+Predict students' Math scores using demographic information and academic performance.
+
+### Technologies
+
+- Python
+- Pandas
+- NumPy
+- Scikit-Learn
+- Streamlit
+
+---
+
+## 🚧 Upcoming Projects
+
+- ❤️ Heart Disease Prediction
+- 💳 Loan Approval Prediction
+- 🚗 Car Price Prediction
+- 🧠 Customer Churn Prediction
+- 📧 Email Spam Detection
+- 🎬 Movie Recommendation System
+- 🤖 RAG Chatbot
+- 📄 Resume Screening System
+
+---
+
+# 🛠️ Tech Stack
 
 - Python
 - Pandas
@@ -66,127 +71,22 @@ Features:
 - Matplotlib
 - Seaborn
 - Scikit-Learn
-- Joblib
 - Streamlit
+- Git
+- GitHub
 
 ---
 
-## 📂 Project Structure
+# 🌐 Connect With Me
 
-```text
-01-house-price-prediction/
-│
-├── app.py
-├── README.md
-├── requirements.txt
-├── LICENSE
-│
-├── data/
-│
-├── docs/
-│
-├── models/
-│
-├── notebooks/
-│
-├── outputs/
-│
-├── screenshots/
-│
-└── src/
-```
-
----
-
-## ⚙ Machine Learning Workflow
-
-1. Data Collection
-2. Data Analysis
-3. Data Cleaning
-4. Feature Engineering
-5. Train/Test Split
-6. Model Training
-7. Model Evaluation
-8. Save Model
-9. Build Streamlit Application
-
----
-
-## 📈 Model Performance
-
-| Model | R² Score |
-|--------|----------|
-| Linear Regression | 0.649 |
-| Decision Tree | 0.468 |
-| Random Forest | 0.612 |
-
-**Best Model:** Linear Regression
-
----
-
-## 🚀 Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/hafizahmadadilaiengineer/machine-learning-projects.git
-```
-
-Move into the project
-
-```bash
-cd machine-learning-projects/01-house-price-prediction
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 📷 Screenshots
-
-### Home Page
-
-(Add screenshot here)
-
-### Prediction Result
-
-(Add screenshot here)
-
----
-
-## 🚀 Future Improvements
-
-- Hyperparameter Tuning
-- Cross Validation
-- XGBoost
-- LightGBM
-- Docker Deployment
-- CI/CD Pipeline
-
----
-
-## 👨‍💻 Author
-
-**Hafiz Ahmad Adil**
-
-MS Computer Science
-
-AI Engineer (Learning)
-
-GitHub:
+**GitHub**
 
 https://github.com/hafizahmadadilaiengineer
 
+**LinkedIn**
+
+https://www.linkedin.com/in/hafizahmadadildurrani
+
 ---
 
-⭐ If you like this project, consider giving it a star.
+⭐ Thank you for visiting my Machine Learning Portfolio.
