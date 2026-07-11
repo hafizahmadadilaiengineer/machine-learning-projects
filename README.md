@@ -77,6 +77,26 @@ Predict students' Math scores using demographic information and academic perform
 
 ---
 
+### ❤️ Project 3 — Heart Disease Prediction System
+
+Predict whether a patient is likely to have heart disease using Machine Learning.
+
+**Features**
+- End-to-End ML Pipeline
+- Data Preprocessing
+- Random Forest Classifier
+- Streamlit Web App
+- Prediction Confidence
+- Professional UI
+
+📂 Folder: `03-heart-disease-prediction`
+
+🚀 Live Demo: *(Add after deployment)*
+
+📸 Preview:
+
+![Heart Disease](03-heart-disease-prediction/screenshots/home_page.png)
+
 # 🌐 Connect With Me
 
 **GitHub**
