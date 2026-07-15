@@ -73,7 +73,7 @@ Predict whether a patient is likely to have heart disease using Machine Learning
 
 📂 Folder: `03-heart-disease-prediction`
 
-🚀 Live Demo: *(Add Streamlit URL)*
+🚀 Live Demo: *(https://hafiz-heart-disease-prediction-2026.streamlit.app/)*
 
 📸 Preview
 
@@ -99,7 +99,7 @@ Predict whether a telecom customer is likely to churn using Machine Learning.
 
 📂 Folder: `04-customer-churn-prediction`
 
-🚀 Live Demo: *(Add Streamlit URL)*
+🚀 Live Demo: *(https://hafiz-customer-churn-prediction-2026.streamlit.app/)*
 
 📸 Preview
 
