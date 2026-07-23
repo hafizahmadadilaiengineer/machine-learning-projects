@@ -588,6 +588,49 @@ html, body, [class*="css"] {
 }
 
 /* ------------------------------------------------------------------
+   Analyze Loan Application -- CTA button
+   ------------------------------------------------------------------*/
+div[data-testid="stButton"] > button[kind="primary"],
+div[data-testid="stButton"] > button[data-testid="stBaseButton-primary"] {
+    height: 65px !important;
+    border-radius: 15px !important;
+    font-size: 21px !important;
+    font-weight: 700 !important;
+    background: linear-gradient(135deg, #0F4C81 0%, #1B6CA8 100%) !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    box-shadow: 0 4px 14px rgba(15, 76, 129, 0.35) !important;
+    transition: all 0.25s ease !important;
+    letter-spacing: 0.3px;
+    line-height: 1.1;
+    padding: 10px 24px !important;
+}
+div[data-testid="stButton"] > button[kind="primary"]:hover,
+div[data-testid="stButton"] > button[data-testid="stBaseButton-primary"]:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 24px rgba(15, 76, 129, 0.50) !important;
+    background: linear-gradient(135deg, #0B3D91 0%, #1E88E5 100%) !important;
+}
+div[data-testid="stButton"] > button[kind="primary"]:active,
+div[data-testid="stButton"] > button[data-testid="stBaseButton-primary"]:active {
+    transform: translateY(1px) !important;
+    box-shadow: 0 2px 8px rgba(15, 76, 129, 0.30) !important;
+}
+div[data-testid="stButton"] > button[kind="primary"]:disabled,
+div[data-testid="stButton"] > button[data-testid="stBaseButton-primary"]:disabled {
+    height: 65px !important;
+    border-radius: 15px !important;
+    font-size: 21px !important;
+    font-weight: 700 !important;
+    background: linear-gradient(135deg, #B0C4DE 0%, #9FB6CD 100%) !important;
+    color: #6C757D !important;
+    opacity: 0.7 !important;
+    box-shadow: none !important;
+    transform: none !important;
+    cursor: not-allowed !important;
+}
+
+/* ------------------------------------------------------------------
    Progress bar override
    ------------------------------------------------------------------*/
 div[data-testid="stProgressBar"] > div > div {

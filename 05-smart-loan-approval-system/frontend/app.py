@@ -142,7 +142,7 @@ st.markdown(
 )
 
 analyze_clicked = st.button(
-    "Analyze Loan Application",
+    "\U0001f3e6 Analyze Loan Application\nAI-powered Decision in Seconds",
     type="primary",
     use_container_width=True,
     disabled=not form_valid,
