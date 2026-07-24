@@ -640,6 +640,16 @@ This project showcases the following skills:
 - Model Deployment Preparation
 
 ---
+## Live Demo
+
+Frontend:
+https://hafiz-smart-loan-approval-system-2026.streamlit.app/
+
+Backend API:
+https://loan-approval-api-lr4z.onrender.com
+
+Swagger Documentation:
+https://loan-approval-api-lr4z.onrender.com/docs
 
 # 👨‍💻 Author
 
