@@ -10,11 +10,6 @@ services:
     ports:
       - "8000:8000"
 
-    volumes:
-      - ./models:/app/models
-
-    environment:
-      MODEL_PATH: /app/models/loan_approval_model.pkl
 
     restart: unless-stopped
 
