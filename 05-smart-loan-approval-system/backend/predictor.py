@@ -6,6 +6,7 @@ validated request data into a DataFrame, and returning predictions with
 associated probabilities.
 """
 
+import os
 from pathlib import Path
 from typing import Dict, Any
 
@@ -15,7 +16,14 @@ import pandas as pd
 from schemas import LoanApplication
 
 # Resolve the model path relative to the project root (one level above backend/)
-MODEL_PATH: Path = Path(__file__).resolve().parent.parent / "models" / "loan_approval_model.pkl"
+
+
+MODEL_PATH: Path = Path(
+    os.getenv(
+        "MODEL_PATH",
+        str(Path(__file__).resolve().parent.parent / "models" / "loan_approval_model.pkl")
+    )
+)
 
 # Human-readable label map matching the training encoding
 LABEL_MAP: Dict[int, str] = {0: "Approved", 1: "Rejected"}
